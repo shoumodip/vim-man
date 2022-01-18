@@ -36,12 +36,12 @@ $ git clone https://github.com/shoumodip/vim-man ~/.config/nvim/pack/plugins/sta
 ## Usage
 | Command | Description |
 | ------- | ----------- |
-| `:Man` | Query the user in an input prompt based on the word at point |
-| `:Man ARGS` | Pass the arguments to the input prompt |
+| `:SigmaMan` | Query the user in an input prompt based on the word at point |
+| `:SigmaMan ARGS` | Pass the arguments to the input prompt |
 
 ## Tip
 Improve your grindset.
 
 ```vim
-noremap <leader>h :Man<cr><c-left>
+noremap <leader>h :SigmaMan<cr><c-left>
 ```

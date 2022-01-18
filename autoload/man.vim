@@ -2,8 +2,6 @@ if exists('s:loaded_sigma_man')
     finish
 endif
 
-" The Sigma establishes dominance over the beta :Man
-let s:loaded_man = 1
 let s:loaded_sigma_man = 1
 
 function! man#sigma(...)
@@ -58,6 +56,8 @@ function! man#sigma(...)
         catch
             echo 'No entry for ' . topic . ' in the manual'
         endtry
+
+        return
     endif
 
     setlocal nomodifiable

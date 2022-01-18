@@ -1,1 +1,1 @@
-command! -nargs=? Man call man#sigma('<args>')
+command! -nargs=? SigmaMan call man#sigma('<args>')
